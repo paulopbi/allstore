@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hind", sans-serif;
+}
+
+:root {
+  --black: #0f0f0f;
+  --gray: #2c2c2c;
+  --blue: #2e5eaa;
+  --green: #04724d;
+  --description-books: #a4a842;
+  --description-eletronics: #496a9e;
+  --description-domestics: #a07178;
+}
