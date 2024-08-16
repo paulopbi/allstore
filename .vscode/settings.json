@@ -1,0 +1,21 @@
+{
+  //padrões de identação
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.indentSize": "tabSize",
+  "editor.tabSize": 4,
+
+  //para formatar os códigos quando forem salvos
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+
+  //para formartar os arquivos com o prettier
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
