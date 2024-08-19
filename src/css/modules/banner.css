@@ -1,0 +1,9 @@
+.banner {
+  margin-block: 4rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.banner:hover {
+  opacity: 0.9;
+}
