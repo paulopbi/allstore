@@ -1,4 +1,5 @@
 @import url("./modules/nav.css");
+@import url("./modules/banner.css");
 
 *,
 *::before,
@@ -18,4 +19,9 @@
   --description-books: #a4a842;
   --description-eletronics: #496a9e;
   --description-domestics: #a07178;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
