@@ -1,3 +1,5 @@
+@import url("./modules/nav.css");
+
 *,
 *::before,
 *::after {
@@ -8,6 +10,7 @@
 }
 
 :root {
+  --white: #fff;
   --black: #0f0f0f;
   --gray: #2c2c2c;
   --blue: #2e5eaa;
