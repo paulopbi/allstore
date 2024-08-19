@@ -1,0 +1,19 @@
+@import url("../style.css");
+
+.products__info {
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.893rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.products__info .line {
+  width: 300px;
+  height: 3px;
+  border-radius: 3px;
+  background-color: rgba(46, 94, 170, 0.1);
+}
