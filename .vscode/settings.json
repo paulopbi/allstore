@@ -3,6 +3,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.indentSize": "tabSize",
   "editor.tabSize": 4,
+  "files.eol": "\n",
 
   //para formatar os códigos quando forem salvos
   "editor.formatOnSave": true,
@@ -16,6 +17,9 @@
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
