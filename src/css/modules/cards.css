@@ -1,0 +1,99 @@
+@import url("../style.css");
+
+.main__card {
+  display: grid;
+  gap: 1.2rem;
+  justify-content: center;
+  row-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 300px));
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__img {
+  position: relative;
+  margin: auto;
+  max-width: 250px;
+  object-fit: cover;
+}
+
+.card__img::after {
+  font-size: 13px;
+  content: "";
+  position: absolute;
+  padding: 4px 8px;
+  text-align: center;
+  right: 0;
+  bottom: 12px;
+  border-radius: 3px;
+  background-color: bisque;
+}
+
+.cards {
+  padding: 0.8rem;
+  border: 2px solid var(--blue);
+  border-radius: 3px;
+}
+
+.card__info {
+  padding-block: 1.2rem;
+}
+
+.card__info-title {
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.card__info-price {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--green);
+}
+
+.card__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__button-more {
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.65em 1em;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+  border-radius: 2px;
+  background: transparent;
+  text-transform: uppercase;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card__button-more:hover {
+  opacity: 0.8;
+}
+
+.card__button-buy {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.65em 1em;
+  color: var(--white);
+  background-color: var(--green);
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card__button-buy:hover {
+  opacity: 0.8;
+}
