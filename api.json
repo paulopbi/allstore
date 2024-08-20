@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Notebook gamer acer nitro 5",
+    "price": 4999.99,
+    "category": "Eletrônico",
+    "image": "./assets/acer-nitro-5.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Geladeira eletrolux",
+    "price": 5616,
+    "category": "Domêstico",
+    "image": "./assets/geladeira-eletrolux.webp"
+  },
+  {
+    "id": 3,
+    "name": "Box de livros do The witcher",
+    "price": 62.06,
+    "category": "Livro",
+    "image": "./assets/livro-the-witcher.webp"
+  },
+  {
+    "id": 4,
+    "name": "Fone de ouvido JBL",
+    "price": 250.42,
+    "category": "Eletrônico",
+    "image": "./assets/jbl-fone-de-ouvido.webp"
+  },
+  {
+    "id": 5,
+    "name": "Maquina de cortar cabelo, dragão chinês",
+    "price": 100,
+    "category": "Domêstico",
+    "image": "./assets/maquina-do-dragao.webp"
+  },
+  {
+    "id": 6,
+    "name": "Sêneca: Sobre a brevidade da vida",
+    "price": 42.5,
+    "category": "Livro",
+    "image": "./assets/sobre-a-brevidade-da-vida.webp"
+  }
+]
