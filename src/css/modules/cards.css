@@ -21,16 +21,18 @@
   object-fit: cover;
 }
 
-.card__img::after {
+.card__img-category {
+  display: inline-block;
+  font-weight: 600;
   font-size: 13px;
-  content: "";
   position: absolute;
   padding: 4px 8px;
   text-align: center;
   right: 0;
   bottom: 12px;
   border-radius: 3px;
-  background-color: bisque;
+  color: var(--white);
+  background-color: var(--blue);
 }
 
 .cards {
